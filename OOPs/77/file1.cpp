@@ -1,0 +1,14 @@
+#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int main()
+{
+  // file ko open karna
+  ofstream fout;
+  fout.open("zoom.txt"); // create kar dega aur fir open kar dega
+  // Write kar sakta hu
+  fout << "Hello India";
+  fout.close(); // Resource release kar paaun
+}
